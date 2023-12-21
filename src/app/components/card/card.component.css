@@ -1,0 +1,59 @@
+.card{
+  border: 1px solid black;
+  width: 250px;
+  height: 350px;
+
+  display: flex;
+  flex-direction: column;
+  background-color: #232323;
+  border-radius: 5px;
+}
+/*  */
+.card__title{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card__title > h3{
+  color: white;
+}
+/*  */
+.card__body{
+  width: 90%;
+  height: 70%;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #616161;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__body > img {
+  width: 150px;
+}
+/*  */
+.card__stats{
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+/*  */
+.card__stats__type{
+  color: rgb(49, 48, 48);
+  font-weight: bold;
+  background-color: rgb(255, 127, 80);
+  padding: 5px;
+  margin-right: 4px;
+  border-radius: 5px;
+}
+/*  */
+.search-bar{
+  width: 242px;
+  margin-bottom: 10px;
+  height: 40px;
+  font-size: 35px;
+}
